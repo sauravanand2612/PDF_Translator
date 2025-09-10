@@ -39,6 +39,15 @@ This project follows a modular, event-driven architecture using AWS services to 
 
 ## 🧱 AWS Services Used
 
+### 🔹 CloudFront
+- Delivers the static frontend over **HTTPS**
+- Provides a secure, globally distributed access layer
+
+### 🔹 API Gateway
+- Provides RESTful endpoints to:
+  - Generate secure upload URLs
+  - Check job/translation status
+ 
 ### 🔹 Amazon S3
 - Stores uploaded PDFs  
 - Stores translated outputs  
@@ -55,16 +64,6 @@ This project follows a modular, event-driven architecture using AWS services to 
 
 ### 🔹 DynamoDB
 - Stores job metadata and translation status
-
-### 🔹 API Gateway
-- Provides RESTful endpoints to:
-  - Generate secure upload URLs
-  - Check job/translation status
-
-### 🔹 CloudFront
-- Delivers the static frontend over **HTTPS**
-- Provides a secure, globally distributed access layer
-
 
 
 
