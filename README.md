@@ -3,7 +3,7 @@ Translate PDF files from one language to another using a fully serverless archit
 
 
 ## 🚀 Live Demo
-Frontend: [PDF Translator Web](https://d1d3fusiyjat60.cloudfront.net/)
+Frontend: %[PDF Translator Web](https://d1d3fusiyjat60.cloudfront.net/)
 
 
 # ⚙️ How It Works (Architecture Overview)
