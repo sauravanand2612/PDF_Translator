@@ -2,8 +2,8 @@
 Translate PDF files from one language to another using a fully serverless architecture on AWS. Simply upload a PDF, choose the language (which lanuage to which) and let the system handle the rest—from text extraction to translation and output delivery.
 
 
-## 🚀 Live Demo
-Frontend: %[PDF Translator Web](https://d1d3fusiyjat60.cloudfront.net/)
+<!--## 🚀 Live Demo-->
+Frontend: [PDF Translator Web](https://d1d3fusiyjat60.cloudfront.net/)
 
 
 # ⚙️ How It Works (Architecture Overview)
