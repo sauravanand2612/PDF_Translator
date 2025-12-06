@@ -26,7 +26,7 @@ This project follows a modular, event-driven architecture using AWS services to 
 
 ### 🌍 Translation Process
 - Another **Lambda function** processes the SQS message
-- Translates the text to **Italian**
+- Translates the text to **Selected Language**
 - Stores the translated result in **S3**
 
 ### 🔄 Job Status
@@ -56,7 +56,7 @@ This project follows a modular, event-driven architecture using AWS services to 
 ### 🔹 AWS Lambda
 - Generates pre-signed S3 upload URLs  
 - Extracts text from uploaded PDFs  
-- Translates extracted text into **Italian**  
+- Translates extracted text into **Selected Language**  
 - Tracks job status and responds to status checks
 
 ### 🔹 Amazon SQS
